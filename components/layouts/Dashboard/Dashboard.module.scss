@@ -1,0 +1,15 @@
+@import 'styles/mixins';
+
+.dashboard {
+  display: flex;
+
+  main {
+    width: calc(100% - 280px);
+    margin-left: auto;
+    padding: 48px 40px;
+
+    @include upto-tablet {
+      width: 100%;
+    }
+  }
+}

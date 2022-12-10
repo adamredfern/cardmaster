@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, -apple-system, Segoe UI, Helvetica Neue, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  label,
+  input {
+    font-family: Montserrat, -apple-system, Segoe UI, Helvetica Neue, sans-serif;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  input,
+  select {
+    width: 100%;
+    height: 48px;
+    margin: 8px 0;
+    padding: 8px 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+    &::placeholder {
+      color: #646363;
+    }
+  }
+
+  select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Toastify {
+  font-size: 1.4rem;
+}

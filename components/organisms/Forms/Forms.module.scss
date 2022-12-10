@@ -1,0 +1,35 @@
+@import 'styles/mixins';
+
+.form {
+  h2 {
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+
+    @include upto-tablet {
+      flex-direction: column;
+    }
+
+    div {
+      flex: 1 1 40%;
+    }
+
+    button {
+      flex: 1 1 100%;
+    }
+
+    select {
+      text-transform: capitalize;
+    }
+
+    .required {
+      color: #ff0000;
+    }
+  }
+}

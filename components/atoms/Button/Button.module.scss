@@ -1,0 +1,17 @@
+.button {
+  min-width: 120px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #f0eff4;
+  font-family: Montserrat, -apple-system, Segoe UI, Helvetica Neue, sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 200ms;
+
+  &:hover {
+    background-color: rgb(213, 212, 216, 0.8);
+  }
+}

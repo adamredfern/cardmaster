@@ -1,0 +1,47 @@
+@import 'styles/mixins';
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($color: #000000, $alpha: 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.inner {
+  width: 100%;
+  max-width: 640px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: scroll;
+
+  @include upto-tablet {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.close {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  cursor: pointer;
+
+  @include upto-tablet {
+    top: 10px;
+    right: 10px;
+  }
+}

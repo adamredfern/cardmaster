@@ -1,0 +1,22 @@
+.list {
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #eaeaea;
+
+  &:last-of-type {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}

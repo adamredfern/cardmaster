@@ -1,0 +1,11 @@
+@mixin upto-desktop() {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin upto-tablet() {
+  @media (max-width: 915px) {
+    @content;
+  }
+}
