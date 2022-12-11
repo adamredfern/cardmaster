@@ -1,1 +1,52 @@
-[{"id":"a9a34e5f-9fe9-4d95-8634-fb8e9d959711","cardType":"credit","cardName":"AMEX Platinum","cardNumber":"3465-897732-42743","bank":"AMEX","balance":-7264.459999999999,"limit":10000,"transferFee":0.01},{"id":"87bfe39d-0ff0-45bf-9541-4f20473dc100","cardType":"credit","cardName":"AMEX Gold","cardNumber":"3729-790770-23567","bank":"AMEX","balance":-0.0003000000000634717,"limit":5000,"transferFee":0.0019},{"id":"7f7596f0-2266-4a9d-982f-83559aa82632","cardType":"debit","cardName":"Lloyds Platinum","cardNumber":"5106-8557-4889-7807","bank":"Lloyds","balance":31378.18,"overdraft":0},{"id":"e9d7e890-d7d4-4d3e-a69a-7d987e6805e3","cardType":"debit","cardName":"Starling Debit","cardNumber":"4532-6392-4454-6861","bank":"Starling","balance":5486.76,"overdraft":1000},{"id":"e3db22b9-7e32-4ccf-8b9b-a546aa9e063e","cardType":"debit","cardName":"Nationwide Flex","cardNumber":"93492049234-0239","bank":"Nationwide","balance":100,"limit":0,"overdraft":500,"transferFee":0.001}]
+[
+    {
+      "id": "a9a34e5f-9fe9-4d95-8634-fb8e9d959711",
+      "cardType": "credit",
+      "cardName": "AMEX Platinum",
+      "cardNumber": "3465-897732-42743",
+      "bank": "AMEX",
+      "balance": -5328.43,
+      "limit": 10000,
+      "transferFee": 0.01
+    },
+    {
+      "id": "87bfe39d-0ff0-45bf-9541-4f20473dc100",
+      "cardType": "credit",
+      "cardName": "AMEX Gold",
+      "cardNumber": "3729-790770-23567",
+      "bank": "AMEX",
+      "balance": -1916.67,
+      "limit": 5000,
+      "transferFee": 0.0019
+    },
+    {
+      "id": "c201d2f0-ba20-48de-94b3-e612bc8d113d",
+      "cardType": "credit",
+      "cardName": "Lloyds Everyday",
+      "cardNumber": "4322-5300-2926-3042",
+      "bank": "VISA",
+      "balance": -12.99,
+      "limit": 1000,
+  
+      "transferFee": 0.03
+    },
+    {
+      "id": "7f7596f0-2266-4a9d-982f-83559aa82632",
+      "cardType": "debit",
+      "cardName": "Lloyds Platinum",
+      "cardNumber": "5106-8557-4889-7807",
+      "bank": "Lloyds",
+      "balance": 31378.18,
+      "overdraft": 0
+    },
+    {
+      "id": "e9d7e890-d7d4-4d3e-a69a-7d987e6805e3",
+      "cardType": "debit",
+      "cardName": "Starling Debit",
+      "cardNumber": "4532-6392-4454-6861",
+      "bank": "Starling",
+      "balance": 5486.76,
+      "overdraft": 1000
+    }
+  ]
+  
