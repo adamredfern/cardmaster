@@ -1,4 +1,4 @@
-Welcome to CardMaster, a project created for ValueChainLabs.
+Welcome to CardMaster, a demonstration project to showcase some of my frontend skills.
 
 ## Tech Stack
 
@@ -11,7 +11,7 @@ Welcome to CardMaster, a project created for ValueChainLabs.
 
 ## Approach
 
-I decided to use NextJS as the framework of choice as I wanted to demonstrate my ability to work within Next, using React and TypeScript. If I get the job, I believe this is a framework I would recommend we look into to build out the front end.
+I decided to use NextJS as the framework of choice as I wanted to demonstrate my ability to work within Next, using React and TypeScript.
 
 Of course, TypeScript is a must too, makes not only the developer's life better, but also less prone to errors at runtime, which is also a must!
 
@@ -48,3 +48,9 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Tests can be ran with the following command
+
+```bash
+npm run test
+```

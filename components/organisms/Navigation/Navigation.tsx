@@ -118,12 +118,12 @@ export const Navigation = () => {
               <Link href={'/'} onClick={() => setMenuOpen(false)}>
                 <li className={styles.profilePhoto}>
                   <Image
-                    src={'/profile-photos/waj.jpg'}
-                    alt={'Waj Akram'}
+                    src={'/profile-photos/user.jpg'}
+                    alt={'John Smith'}
                     width={24}
                     height={24}
                   />
-                  <span>Waj Akram</span>
+                  <span>John Smith</span>
                 </li>
               </Link>
               <div className={styles.divider}></div>

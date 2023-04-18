@@ -14,7 +14,7 @@ export const Overlay = ({ open, setOpen, children }: OverlayProps) => {
   }
 
   return (
-    <div className={styles.overlay} onClick={() => setOpen(false)}>
+    <div data-testid="overlay" className={styles.overlay} onClick={() => setOpen(false)}>
       <div className={styles.inner} onClick={(e) => e.stopPropagation()}>
         <div className={styles.close} onClick={() => setOpen(false)}>
           <Image

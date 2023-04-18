@@ -14,6 +14,7 @@ import styles from './Card.module.scss'
 interface CardProps {
   card: CardType
   index: number
+  testId?: string;
 }
 
 declare module 'react' {
@@ -22,7 +23,7 @@ declare module 'react' {
   }
 }
 
-export const Card = ({ card, index }: CardProps) => {
+export const Card = ({ card, index, testId }: CardProps) => {
   const [overlayOpen, setOverlayOpen] = useState(false)
   const [passcode, setPasscode] = useState('')
   const [seeCardNumber, setSeeCardNumber] = useState(false)
@@ -76,7 +77,7 @@ export const Card = ({ card, index }: CardProps) => {
         </form>
       </Overlay>
 
-      <div className={styles.container}>
+      <div className={styles.container} data-testid={testId ?? ""}>
         <div className={`${styles.card}`} index={index}>
           <div className={styles.info}>
             <div className={styles.cardName}>

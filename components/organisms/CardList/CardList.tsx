@@ -16,7 +16,7 @@ export const CardList = ({ title, cards }: CardListProps) => {
       {cards.length > 0 ? (
         <ul>
           {cards.map((card, index) => (
-            <Card key={card.id} card={card} index={index} />
+            <Card key={card.id} card={card} index={index} testId={'card'} />
           ))}
         </ul>
       ) : (

@@ -40,7 +40,7 @@ export default function Home() {
       </Overlay>
 
       <section>
-        <Header title="Welcome, Waj">
+        <Header title="Welcome, John">
           {cards && cards?.length >= 2 && (
             <Button
               text="Transfer Balance"
