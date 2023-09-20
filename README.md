@@ -25,6 +25,9 @@ For my mock API, I have used the `/api` directory that NextJS provides, and have
 
 As for mobile responsiveness, I have also built this in too, so feel free to check it out in the inspect window on your browser for ease.
 
+## Improvements
+Looking back at this repo, I would like to go back and add in some unit tests. I haven't made the time to go back and retroactively write these, but this is something I would improve on here.
+
 ## Conculsion
 
 I hope you find this project interesting and innovative. I also hope it's simple to use, with a modern, minimalist aesthetic. I wanted to build a project that you could theoretically take to market. My hope is that I have shown off some of my frontend muscle here, and would love to answer any questions you may have!
